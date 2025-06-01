@@ -2,7 +2,7 @@ name: Push Docker Image to Docker Hub
 on: # 동작 조건 지정 
   push:
     branches:
-      - 'master'
+      - 'main'
     tags:
       -'**'
 jobs:
